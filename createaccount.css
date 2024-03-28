@@ -1,0 +1,62 @@
+/* Create Container */
+.create {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff; /* White */
+}
+
+/* Create Heading */
+.create h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Black */
+}
+
+/* Form Group */
+.create form div {
+  margin-bottom: 15px;
+}
+
+/* Label */
+.create form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Black */
+}
+
+/* Input Fields */
+.create form input[type="text"],
+.create form input[type="file"] {
+  width: calc(100% - 12px); /* Adjust for padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.create form button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.create form button:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+}
+
+/* Paragraph */
+.create p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333; /* Black */
+}

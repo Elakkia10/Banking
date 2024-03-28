@@ -1,0 +1,88 @@
+
+body {
+    background-color:aquamarine; /* Example color */
+}
+
+.bank-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height to the viewport height */
+}
+
+.bank-header {
+    display: flex; /* Use flexbox for header */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for navbar */
+}
+
+.bank-header h1 {
+    font-size: 40px;
+    background: linear-gradient(to right, white, black); /* Gradient background */
+    -webkit-background-clip: text; /* Apply the background only to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    margin-right: auto; /* Push "EVBank" to the left */
+}
+
+.bank-content {
+    flex: 1; /* Grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+     /* Example color */
+}
+
+.bank-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: green;
+}
+
+.bank-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bank-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+    text-decoration: none; 
+}
+
+.bank-btn:hover {
+    background-color: #0056b3;
+}
+
+.bank-footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.bank-footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff; /* White color for text */
+}
+
+.signup-signin a {
+    font-size: 16px;
+    color: #fff; /* White color for text */
+    text-decoration: none;
+}
+
+.signup-signin a:hover {
+    text-decoration: underline;
+}

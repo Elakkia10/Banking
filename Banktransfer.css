@@ -1,0 +1,77 @@
+/* Bank Transfer Container */
+.bank-transfer-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Black */
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Error Message */
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Success Message */
+.success {
+  color: green;
+  margin-top: 5px;
+}
+
+/* Confirmation Dialog */
+.confirmation-dialog {
+  margin-top: 20px;
+}
+
+/* Confirmation Dialog Paragraph */
+.confirmation-dialog p {
+  margin-bottom: 10px;
+}
+
+/* Confirm Button */
+.confirm-button, .cancel-button, .submit-button {
+  background-color: #007bff; /* Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover, .cancel-button:hover, .submit-button:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+}
+
+/* Cancel Button */
+.cancel-button {
+  margin-right: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+  margin-top: 10px;
+}

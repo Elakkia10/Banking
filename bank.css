@@ -1,0 +1,60 @@
+/* Button Styles */
+.green-button {
+  background-color: #007bff; /* Blue */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px auto; /* Center the buttons horizontally */
+  display: block; /* Make buttons occupy full width */
+}
+
+.green-button:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+}
+
+/* Confirmation Modal Styles */
+.confirmation-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff; /* White */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-modal p {
+  margin-bottom: 20px;
+}
+
+.confirmation-modal button {
+  background-color: #007bff; /* Blue */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.confirmation-modal button:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+}
+
+/* Centered Heading */
+h1 {
+  text-align: center;
+  color: #333; /* Black */
+}
